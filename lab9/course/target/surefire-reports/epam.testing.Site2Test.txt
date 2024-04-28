@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: epam.testing.Site2Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.619 s <<< FAILURE! - in epam.testing.Site2Test
+shouldBeRedirectedToProductsPage(epam.testing.Site2Test)  Time elapsed: 4.711 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with locator By.xpath: //*[@id="max_price"]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at epam.testing.Site2Test.openPages(Site2Test.java:22)
+
